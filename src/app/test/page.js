@@ -21,7 +21,7 @@ const page = async() => {
       <ul>
         {posts.map((item) => (
           <li key={item.id}>
-            <Link href={`/test/${item.id}`}>item = {item.author}</Link>
+            <Link href={`/test/${item.author}`}>item = {item.author}</Link>
           </li>
         ))}
       </ul>
